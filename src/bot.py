@@ -3,7 +3,7 @@ from config import *
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from weather import temperature
 
-# Initializing bot
+# Initializing bot.
 bot = telebot.TeleBot(TOKEN)
 
 
